@@ -1,0 +1,31 @@
+.venv
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+*.egg-info/
+dist/
+build/
+*.egg
+
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+.env
+.env.local
+
+
+# How Patterns Work
+
+# *.pyc matches any file ending in .pyc
+# __pycache__/ matches the __pycache__ directory and everything in it
+# venv/ ignores the entire venv folder
+# !important.pyc uses ! to create an exception—don't ignore this file
