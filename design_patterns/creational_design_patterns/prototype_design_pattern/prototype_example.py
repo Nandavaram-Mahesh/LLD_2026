@@ -1,3 +1,4 @@
+
 import copy
 
 class Square:
@@ -28,5 +29,3 @@ rec = proto.clone('square',x=100,y=80)
 cube = proto.clone('square',x=100,y=80,z=60)
 print("SQUARE : ", sq.__dict__,", RECTANGLE", rec.__dict__,", CUBE: ", cube.__dict__)
 
-        
-        
